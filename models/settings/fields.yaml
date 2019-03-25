@@ -1,0 +1,62 @@
+tabs:
+    fields:
+        type:
+            tab: linkonoid.scpadsense::lang.settings.tab
+            label: linkonoid.scpadsense::lang.settings.type
+            type: dropdown
+            options:
+                banner: linkonoid.scpadsense::lang.settings.type_banner
+                fixed: linkonoid.scpadsense::lang.settings.type_fixed
+            default: banner
+            span: left
+        orientation:
+            tab: linkonoid.scpadsense::lang.settings.tab
+            label: linkonoid.scpadsense::lang.settings.orientation
+            type: dropdown
+            options:
+                left: linkonoid.scpadsense::lang.settings.orientation_left
+                right: linkonoid.scpadsense::lang.settings.orientation_right
+                top: linkonoid.scpadsense::lang.settings.orientation_top
+                bottom: linkonoid.scpadsense::lang.settings.orientation_bottom
+            default: top
+            span: right
+        client:    
+            tab: linkonoid.scpadsense::lang.settings.tab 
+            label: linkonoid.scpadsense::lang.settings.client
+            type: text
+            placeholder: 'ca-pub-1147018993230160'                        
+            span: left
+        slot:
+            tab: linkonoid.scpadsense::lang.settings.tab 
+            label: linkonoid.scpadsense::lang.settings.slot
+            type: number
+            placeholder: 1160605533
+            span: right
+        sandy:
+            tab: linkonoid.scpadsense::lang.settings.tab
+            label: linkonoid.scpadsense::lang.settings.sandy
+            type: switch
+            span: left
+            comment: linkonoid.scpadsense::lang.settings.sandy_comment
+        resource:
+            tab: linkonoid.scpadsense::lang.settings.tab
+            label: linkonoid.scpadsense::lang.settings.resource
+            placeholder: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+            default: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        #priority:
+        #    tab: linkonoid.scpadsense::lang.settings.settings.tab       
+        #    label: 'Priority'
+        #    comment: 'Priority of AdSense, if it is added: larger values are loaded first'
+        #    type: number
+        #    default: 10                    
+        #load:
+        #    tab: linkonoid.scpadsense::lang.settings.settings.tab
+        #    label: 'Load'
+        #    comment: 'Load AdSense aynchronously (async), delayed (defer) or synchronous (none) method'            
+        #    type: dropdown
+        #    options:
+        #        none: 'None'
+        #        async: 'Async'
+        #        defer: 'Defer'
+       
+

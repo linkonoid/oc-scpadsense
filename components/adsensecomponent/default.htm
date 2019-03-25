@@ -1,0 +1,10 @@
+{% if adsense_direction in ['top', 'bottom'] %} {% set direction = "horizontal" %} {% elseif adsense_direction in ['left', 'right'] %} {% set direction = "vertical" %} {% endif %}
+<ins id="adsense" class="adsbygoogle {{ adsense_type }} {{ adsense_class }} {{ direction }} {{ adsense_direction }} {% if adsense_sandy == true %}sandy{% endif %}" data-ad-client="{{ adsense_client }}" data-ad-slot="{{ adsense_slot }}" data-hash="{{ adsense_hash|default('#') }}">
+  {% if adsense_sandy == true %}
+    <img
+      src="{{ base_url ~ '/plugins/linkonoid/scpadsense/assets/img/sandy_'~direction~'.png' }}"
+      alt="Sandy Ad {{ adsense_type|title }}"
+      title="Sandy Ad {{ adsense_type|title }}"
+      class="sandy_img">
+  {% endif %}
+</ins>
