@@ -2,12 +2,12 @@
 
 ## First create general default settings. Default variables:
 
-*Display Type* - Assets type (either "banner" or "fixed")
-*Direction* - Assets direction (either "left", "right", "top", "bottom")
-*AdSense Client-ID* - AdSense client
-*AdSense Slot-ID* - AdSense slot
-*On sandbox mode* - Enables a demo mode for local purpose
-*AdSense API JavaScript* - AdSense script url (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
+- *Display Type* - Assets type (either "banner" or "fixed")
+- *Direction* - Assets direction (either "left", "right", "top", "bottom")
+- *AdSense Client-ID* - AdSense client
+- *AdSense Slot-ID* - AdSense slot
+- *On sandbox mode* - Enables a demo mode for local purpose
+- *AdSense API JavaScript* - AdSense script url (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
 
 
 
