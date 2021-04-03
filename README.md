@@ -1,4 +1,4 @@
-# Beginning of work.
+# Beginning of work
 
 ## First create general default settings. Default variables:
 
