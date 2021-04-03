@@ -1,6 +1,6 @@
-Beginning of work.
+# Beginning of work.
 
-First create general default settings. Default variables:
+## First create general default settings. Default variables:
 
 *Display Type* - Assets type (either "banner" or "fixed")
 *Direction* - Assets direction (either "left", "right", "top", "bottom")
@@ -11,7 +11,7 @@ First create general default settings. Default variables:
 
 
 
-1. Work use Component "Adsense" ("SCPADSENSE" plugin, "SCP" signify "ShortCodesPlugin").
+### 1. Work use Component "Adsense" ("SCPADSENSE" plugin, "SCP" signify "ShortCodesPlugin").
 Component settings variables:
 
 *Display Type* - Assets type (either "banner" or "fixed"), if not set is taken from default plugin settings
@@ -23,7 +23,7 @@ Component settings variables:
 
 
 
-2. Work use shortcode (works only with ShortcodesEngine plugin present):
+### 2. Work use shortcode (works only with ShortcodesEngine plugin present):
 
 ``[adsense type="" direction="" client="" slot="" class=""][/adsense]``
 
@@ -34,6 +34,6 @@ Component settings variables:
 *class* - specifed class for this AdSense blok adding to class="adsbygoogle ..YOUR CLASS..")
 
 
-Use Twig for this shortcode:
+## Use Twig for this shortcode:
 ``{% set twig_adsense = '[adsense type="" direction="" client="" slot="" class=""][/adsense]' %} {{ twig_adsense|shortcodes }}``
  
